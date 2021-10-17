@@ -3,4 +3,4 @@ RDR3: Native enums generated with HotstarGen and native.json (from https://raw.g
 
 HotstarGen: https://github.com/iamdroppy/HotstarGen
 
-Natives: 
+Natives: https://raw.githubusercontent.com/alloc8or/
