@@ -1,0 +1,32 @@
+using System;
+namespace Hotstar
+{
+    public enum APP : ulong
+    { 
+        /// <summary>
+        /// Called in the gamescripts like:
+        /// APP::APP_SET_APP("car");
+        /// APP::APP_SET_APP("dog");
+        ///
+        /// > const char* appName
+        ///
+        /// </summary>
+        APP_SET_APP = 0xCFD0406ADAF90D2B,
+        APP_DATA_VALID = 0x846AA8E7D55EE5B6,
+        APP_GET_INT = 0xD3A58A12C77D9D4B,
+        APP_GET_FLOAT = 0x1514FB24C02C2322,
+        APP_GET_STRING = 0x749B023950D2311C,
+        APP_SET_INT = 0x607E8E3D3E4F9611,
+        APP_SET_FLOAT = 0x25D7687C68E0DAA4,
+        APP_SET_STRING = 0x3FF2FCEC4B7721B4,
+        APP_SET_BLOCK = 0x262AB456A3D21F93,
+        APP_CLEAR_BLOCK = 0x5FE1DF3342DB7DBA,
+        APP_CLOSE_APP = 0xE41C65E07A5F05FC,
+        APP_CLOSE_BLOCK = 0xE8E3FCF72EAC0EF8,
+        APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT = 0x71EEE69745088DA0,
+        APP_HAS_SYNCED_DATA = 0xCA52279A7271517F,
+        APP_SAVE_DATA = 0x95C5D356CDA6E85F,
+        APP_GET_DELETED_FILE_STATUS = 0xC9853A2BE3DED1A6,
+        APP_DELETE_APP_DATA = 0x44151AEA95C8A003,
+    }
+}
